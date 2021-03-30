@@ -1,2 +1,3 @@
-'value /+key _ code ["gmright2"] post > "value: ";"gmright2";"
+'value / +key _ code ["gmright2"] post > "value: ";"gmright2";"
 'gmright2 / +key _ code } : 'gmright2-cool' card open setting up (code_data/physical) tools show ("spin")
+'gmright2 / +key & formulation ("gmright2") : +key catch fatching "+key-gmright2" program run ! "Test.task" complete if not push back results then return <(gmright2)
