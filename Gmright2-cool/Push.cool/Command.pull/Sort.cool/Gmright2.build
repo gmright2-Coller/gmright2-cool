@@ -1,0 +1,98 @@
+build
+succeeded 13 minutes ago in 5s
+2s
+Current runner version: '2.277.1'
+Operating System
+  Ubuntu
+  20.04.2
+  LTS
+Virtual Environment
+  Environment: ubuntu-20.04
+  Version: 20210412.1
+  Included Software: https://github.com/actions/virtual-environments/blob/ubuntu20/20210412.1/images/linux/Ubuntu2004-README.md
+  Image Release: https://github.com/actions/virtual-environments/releases/tag/ubuntu20%2F20210412.1
+GITHUB_TOKEN Permissions
+  Actions: write
+  Checks: write
+  Contents: write
+  Deployments: write
+  Issues: write
+  Metadata: read
+  Packages: write
+  PullRequests: write
+  RepositoryProjects: write
+  SecurityEvents: write
+  Statuses: write
+Prepare workflow directory
+Prepare all required actions
+Getting action download info
+Download action repository 'actions/checkout@v2'
+Run actions/checkout@v2
+  with:
+    repository: gmright2-Coller/Gmright2.bucket.QA
+    token: ***
+    ssh-strict: true
+    persist-credentials: true
+    clean: true
+    fetch-depth: 1
+    lfs: false
+    submodules: false
+Syncing repository: gmright2-Coller/Gmright2.bucket.QA
+Getting Git version info
+  Working directory is '/home/runner/work/Gmright2.bucket.QA/Gmright2.bucket.QA'
+  /usr/bin/git version
+  git version 2.31.1
+Deleting the contents of '/home/runner/work/Gmright2.bucket.QA/Gmright2.bucket.QA'
+Initializing the repository
+  /usr/bin/git init /home/runner/work/Gmright2.bucket.QA/Gmright2.bucket.QA
+  hint: Using 'master' as the name for the initial branch. This default branch name
+  hint: is subject to change. To configure the initial branch name to use in all
+  hint: of your new repositories, which will suppress this warning, call:
+  hint: 
+  hint: 	git config --global init.defaultBranch <name>
+  hint: 
+  hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+  hint: 'development'. The just-created branch can be renamed via this command:
+  hint: 
+  hint: 	git branch -m <name>
+  Initialized empty Git repository in /home/runner/work/Gmright2.bucket.QA/Gmright2.bucket.QA/.git/
+  /usr/bin/git remote add origin https://github.com/gmright2-Coller/Gmright2.bucket.QA
+Disabling automatic garbage collection
+  /usr/bin/git config --local gc.auto 0
+Setting up auth
+  /usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+  /usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :
+  /usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+  /usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :
+  /usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Fetching the repository
+  /usr/bin/git -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +fe5300a0d5919d72d7655c7133a89f4cd5dda61c:refs/remotes/origin/master
+  remote: Enumerating objects: 951, done.   
+     From https://github.com/gmright2-Coller/Gmright2.bucket.QA
+   * [new ref]         fe5300a0d5919d72d7655c7133a89f4cd5dda61c -> origin/master
+Determining the checkout info
+Checking out the ref
+  /usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+  Reset branch 'master'
+  Branch 'master' set up to track remote branch 'master' from 'origin'.
+/usr/bin/git log -1 --format='%H'
+'fe5300a0d5919d72d7655c7133a89f4cd5dda61c'
+0s
+Run echo Hello, world!
+Hello, world!
+0s
+Run echo Add other actions to build,
+Add other actions to build,
+test, and deploy your project.
+1s
+Post job cleanup.
+/usr/bin/git version
+git version 2.31.1
+/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+/usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :
+/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+http.https://github.com/.extraheader
+/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+/usr/bin/git submodule foreach --recursive git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :
+0s
+Cleaning up orphan processes
